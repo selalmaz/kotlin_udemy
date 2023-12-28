@@ -10,7 +10,7 @@ fun main () {
     println(bogazVilla.garajVarmi)
     println(bogazVilla.pencereSayisi)
 
-    if(topkapiSarayi!! is Saray)
+    if(topkapiSarayi is Saray)
         println("saraydir")
     else
         println("saray değildir")
